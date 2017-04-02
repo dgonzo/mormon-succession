@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  notebook:
+    build : ./
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/srv/notebook-server/
